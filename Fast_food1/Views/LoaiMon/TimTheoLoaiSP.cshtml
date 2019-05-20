@@ -10,10 +10,7 @@
     <img src="~/Content/img/banner-01.jpg">
     <div id="food-menu">
         <div class="title-menu clearfix" style="margin-top: 10px;">
-            @*<img src="~/Content/img/icon/line.png" class="fl-left" style="margin-left: 410px; " />*@
-            <form method="post"><input type="number" name="Min" /> <input type="number" name="Max" /> <input type="text" name="TKTen" /> <input type="submit" /></form>
-            @*<p class="title-menu fl-left"> Thực đơn</p>*@
-            @*<img src="~/Content/img/icon/line.png" class="fl-left" />*@
+            <form method="post"><input type="number" name="Min" placeholder="Từ Giá" /> <input type="number" name="Max" placeholder="Đến Giá" /> <input type="text" name="TKTen" placeholder="Tìm theo tên" /> <input type="submit" value="Tìm kiếm" /></form>
         </div>
         <div id="list-menu">
             <ul>
@@ -37,8 +34,7 @@
                         </a>
                         <button type="button" class="btn btn-info"> <a href="@Url.Action("CTMon","ChiTietSP", new { @Mamon = item.MaMon })">Chi Tiết</a> </button>
                         <button type="button" class="btn btn-danger">
-                            Mua
-                            <span class="fa fa-cart-plus"></span>
+                            <a style="color :#fff" href="@Url.Action("ThemGioHang", "GioHang", new { @ma = item.MaMon, @Url = Request.Url.ToString() })"> Mua</a>
                         </button>
                     </div>
                 </li>
