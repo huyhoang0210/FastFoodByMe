@@ -1,0 +1,85 @@
+﻿@using Fast_food1.Models;
+@{ 
+    NguoiDung nguoidung = new NguoiDung();
+    if (Session["DangNhap"] != null)
+    {
+        nguoidung = (NguoiDung)Session["DangNhap"];
+    }
+}
+<!DOCTYPE html>
+@*<html>*@
+<head>
+    <title>Project Fast Food</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/reset.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/~/Content/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap.css" />
+    <link href="~/Content/css/global.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style-blog.css">
+    <link href="~/Content/css/policy.css" rel="stylesheet" />
+    <link href="~/Content/css/analy.css" rel="stylesheet" />
+</head>
+<div id="header">
+    <div class="wp-inner ">
+        <a href="@Url.Action("Index", "Home")" id="logo"><img src="~/Content/img/logo-02.png" /></a>
+        <ul id="main-menu" class="fl-left">
+            <li> @Html.ActionLink("Trang Chủ", "index", "Home")</li>
+            <li><a href="@Url.Action("KhuyenMai", "KhuyenMai")">Khuyến mại</a></li>
+            <li> @Html.ActionLink("Chính sách", "ChinhSach", "ChinhSach") </li>
+            <li> @Html.ActionLink("BLOG", "Blog", "Blog") </li>
+            <li><a href=" @Url.Action("GioHang","GioHang")"><i class="fa fa-cart-plus"></i> Giỏ Hàng</a></li>
+            @{
+                if (Session["DangNhap"] != null)
+                {
+                    <li><a href="@Url.Action("DangXuat","DangNhap")">Đăng xuất</a></li>
+                }
+                else
+                {
+                    <li><a href="@Url.Action("DangNhap","DangNhap")">Đăng nhập</a></li>
+
+                }
+
+            }
+            <li>
+                @if (nguoidung != null)
+                {
+                    if (Session["DangNhap"] != null)
+                    {<p>  Xin Chào @nguoidung.HoTen</p>}
+            }
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--end header-->
+@RenderBody()
+<div id="footer" class="clearfix">
+
+    <div id="about-us">
+        <img src="~/Content/img/logo-02.png">
+        <p class="title-about-us">Chuỗi cửa hàng đồ ăn nhanh FreshFood</p>
+        <ul>
+            <li>> Để đặt hàng vui lòng liên hệ qua số tổng đài: 0123456789</li>
+            <li>> Để phản ánh chất lượng dịch vụ, vui lòng gọi số:0987654321</li>
+            <li>> Email: freshfood@gmail.com</li>
+            <li>> Chính sách bảo mật thông tin cá nhân</li>
+            <li>> Chính sách thanh toán</li>
+        </ul>
+    </div>
+    <div id="address">
+        <p>Địa chỉ tại Hà Nội</p>
+        <ul>
+            <li>> 236 Hoàng Quốc Việt - Cầu giấy</li>
+            <li>> 5 Nguyễn Trãi - Thanh Xuân</li>
+            <li>> 47 Tràng Tiền - Hoàn Kiếm</li>
+            <li>> 105 Tân Mai - Hoàng Mai</li>
+        </ul>
+    </div>
+</div>
+<!--end footer-->
+<div id="copyright"  class="wp-inner">
+    <p class="copyright"> © 2017 All right reserved - Bản quyền thuộc về VIETSOZ.com</p>
+</div>

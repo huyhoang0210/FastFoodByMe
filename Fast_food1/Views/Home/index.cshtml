@@ -1,0 +1,128 @@
+﻿@using Fast_food1.Models
+@model List<Mon>
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <div id="site">
+        <div id="wrapper">
+
+            <div id="wp-content" class="wp-inner clearfix">
+                <img src="~/Content/img/banner-01.jpg">
+                <div id="food-menu">
+                    <div class="title-menu clearfix" style="margin-top: 10px;">
+                        @*<img src="~/Content/img/icon/line.png" class="fl-left" style="margin-left: 410px; " />*@
+                        <form method="post"><input type="number" name="Min" placeholder="Từ Giá"/> <input type="number" name="Max"  placeholder="Đến Giá"/> <input type="text" name="TKTen"  placeholder="Tìm theo tên"/> <input type="submit" value="Tìm kiếm"/></form>
+                        @*<p class="title-menu fl-left"> Thực đơn</p>*@
+                        @*<img src="~/Content/img/icon/line.png" class="fl-left" />*@
+                    </div>
+                    <div id="list-menu">
+                     
+
+                        <ul>
+                            @Html.Action("LoaiMonPartial", "LoaiMon")
+                        </ul>
+                    </div>
+                </div>
+                <div id="list-food">
+                    <ul>
+
+
+                        @{
+                            foreach (var item in Model)
+                            {
+
+                                <li>
+                                    <div class="bo-img">
+                                        <a href="">
+                                            <img src="@Url.Content("~/Content/img/"+ item.UrlImg)">
+                                            <h4>@item.TenMon</h4>
+                                            <span class="price"> @item.Gia VND</span>
+                                        </a>
+                                        <button type="button" class="btn btn-info"> <a style="color:#fff" href="@Url.Action("CTMon","ChiTietSP", new { @Mamon = item.MaMon })">Chi Tiết</a> </button>
+
+                                        <button type="button" class="btn btn-danger">
+                                            <a style="color :#fff" href="@Url.Action("ThemGioHang", "GioHang", new { @ma = item.MaMon, @Url = Request.Url.ToString() })"> Mua</a>    
+                                            </button>
+
+                                        @*@using (Html.BeginForm("ThemGioHang", "GioHang", new { @ma = item.MaMon, @Url = Request.Url.ToString() }))
+                                        {
+                                            <button type="submit" class="btn btn-danger">Mua</button>
+                                        }*@
+                                    </div>
+                                </li>
+                            }
+                        }
+                      
+                    </ul>
+                </div>
+            
+                <div id="feedback">
+                    <div class="title-menu clearfix" style="margin-top: 10px;">
+                        <img src="~/Content/img/icon/line.png" class="fl-left" style="margin-left: 410px; " />
+                        <p class="title-menu fl-left"> Feed-back</p>
+                        <img src="~/Content/img/icon/line.png" class="fl-left" />
+                    </div>
+                    <div id="content-feedback">
+                        <ul>
+                            <li>
+                                <img src="~/Content/img/customer/cus1.jpg" />
+                                <p class="comment">" mì nhiều ú ụ mà mình thấy sợi mì ở đây ngon hơn những chõ khác. sốt bò băm mà có nhiều bò nước sốt ngon .tóm lại ăn mì ở đây giá hợp lý mà ngon "</p>
+                                <p class="nickname">Mạnh Nguyễn </p>
+                            </li>
+                            <li>
+                                <img src="~/Content/img/customer/cus2.jpg" />
+                                <p class="comment">" pizza ngon bên ngoài trồn khá đẹp mắt và ngon miệng và khá to. vỏ bánh có đọ dày vừa phải không bị mỏng quá và giòn vị ăn ngon "</p>
+                                <p class="nickname">Huy Hoàng </p>
+                            </li>
+                            <li>
+                                <img src="~/Content/img/customer/cus3.jpg" />
+                                <p class="comment">" èo ôi bánh ở đây ăn ngon vãi chưởng ế, ăn xong nghiện hơn cả heroin "</p>
+                                <p class="nickname">Nguyễn Hoài </p>
+                            </li>
+                            <li>
+                                <img src="~/Content/img/customer/cus4.jpg" />
+                                <p class="comment">" chỉ có 110k một cái pizza to ú ú lại còn có mã giảm giá 50% nữa tính ra chi mất hơn 50k mà có bánh ngon để ăn nhân viên giao hàng còn nhanh nữa chứ "</p>
+                                <p class="nickname">Thị Nhung </p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+              
+                <div id="properties">
+                    <ul>
+                        <li>
+                            <img src="~/Content/img/icon/diet.png">
+                            <p class="title-properties">Chất lượng</p>
+                            <p class="detail-properties">Chú trọng khâu tuyển chọn đội ngũ đầu bếp chuyên nghiệp, thực đơn của Pizza Express luôn được đổi mới, đa dạng với pizza nhiều hương vị, sandwich, mỳ ý và các món ăn nhanh khác.</p>
+                        </li>
+                        <li>
+                            <img src="~/Content/img/icon/meal.png">
+                            <p class="title-properties">Đúng giờ</p>
+                            <p class="detail-properties">Để tăng cường sự tin tưởng và yên tâm với khách hàng, Pizza Express cam kết luôn giao hàng đúng giờ và chi phí giao hàng rẻ nhất để đảm bảo khách hàng có thể nhận bánh trong thời gian nhanh nhất.</p>
+                        </li>
+                        <li>
+                            <img src="~/Content/img/icon/chef-hat.png">
+                            <p class="title-properties">Take away</p>
+                            <p class="detail-properties">Lựa chọn cho mình một hướng đi mới để tạo nên sự khác biệt, mô hình Pizza take away - pizza mang đi giúp khách hàng tiết kiệm thời gian, đem đến sự tiện lợi tối ưu trong việc lựa chọn, thanh toán, đóng gói và nhận hàng.</p>
+                        </li>
+                        <li>
+                            <img src="~/Content/img/icon/waiter.png">
+                            <p class="title-properties">Chuyên nghiệp</p>
+                            <p class="detail-properties">Cùng với đội ngũ nhân viên mang đầy sức trẻ và nhiệt huyết, chúng tôi luôn mong muốn đem lại cho khách hàng của mình chất lượng dịch vụ tốt nhất, luôn lắng nghe và chăm sóc những nhu cầu dù là nhỏ nhất của Quý khách</p>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+            <!--end containt-->
+
+
+
+        </div>
+    </div>
+
+</body>
+

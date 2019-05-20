@@ -1,0 +1,186 @@
+E:\web\Fast_food1\Fast_food1\bin\ApplicationInsights.config
+E:\web\Fast_food1\Fast_food1\bin\Fast_food1.dll.config
+E:\web\Fast_food1\Fast_food1\bin\Fast_food1.dll
+E:\web\Fast_food1\Fast_food1\bin\Fast_food1.pdb
+E:\web\Fast_food1\Fast_food1\bin\roslyn\csc.exe
+E:\web\Fast_food1\Fast_food1\bin\roslyn\csc.exe.config
+E:\web\Fast_food1\Fast_food1\bin\roslyn\csc.rsp
+E:\web\Fast_food1\Fast_food1\bin\roslyn\csi.exe
+E:\web\Fast_food1\Fast_food1\bin\roslyn\csi.exe.config
+E:\web\Fast_food1\Fast_food1\bin\roslyn\csi.rsp
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.Managed.Core.targets
+E:\web\Fast_food1\Fast_food1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.AppContext.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Collections.Immutable.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Console.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.IO.Compression.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.IO.FileSystem.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.IO.Pipes.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Reflection.Metadata.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Security.AccessControl.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Security.Claims.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Security.Principal.Windows.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.ValueTuple.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Xml.XmlDocument.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Xml.XPath.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\web\Fast_food1\Fast_food1\bin\roslyn\vbc.exe
+E:\web\Fast_food1\Fast_food1\bin\roslyn\vbc.exe.config
+E:\web\Fast_food1\Fast_food1\bin\roslyn\vbc.rsp
+E:\web\Fast_food1\Fast_food1\bin\roslyn\VBCSCompiler.exe
+E:\web\Fast_food1\Fast_food1\bin\roslyn\VBCSCompiler.exe.config
+E:\web\Fast_food1\Fast_food1\bin\Antlr3.Runtime.dll
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AI.Agent.Intercept.dll
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AI.DependencyCollector.dll
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AI.Web.dll
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AI.WindowsServer.dll
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.ApplicationInsights.dll
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.Web.Infrastructure.dll
+E:\web\Fast_food1\Fast_food1\bin\Newtonsoft.Json.dll
+E:\web\Fast_food1\Fast_food1\bin\System.Diagnostics.DiagnosticSource.dll
+E:\web\Fast_food1\Fast_food1\bin\System.Web.Helpers.dll
+E:\web\Fast_food1\Fast_food1\bin\System.Web.Mvc.dll
+E:\web\Fast_food1\Fast_food1\bin\System.Web.Optimization.dll
+E:\web\Fast_food1\Fast_food1\bin\System.Web.Razor.dll
+E:\web\Fast_food1\Fast_food1\bin\System.Web.WebPages.Deployment.dll
+E:\web\Fast_food1\Fast_food1\bin\System.Web.WebPages.dll
+E:\web\Fast_food1\Fast_food1\bin\System.Web.WebPages.Razor.dll
+E:\web\Fast_food1\Fast_food1\bin\WebGrease.dll
+E:\web\Fast_food1\Fast_food1\bin\System.Web.Helpers.xml
+E:\web\Fast_food1\Fast_food1\bin\System.Web.Mvc.xml
+E:\web\Fast_food1\Fast_food1\bin\System.Web.Optimization.xml
+E:\web\Fast_food1\Fast_food1\bin\System.Web.Razor.xml
+E:\web\Fast_food1\Fast_food1\bin\System.Web.WebPages.xml
+E:\web\Fast_food1\Fast_food1\bin\System.Web.WebPages.Deployment.xml
+E:\web\Fast_food1\Fast_food1\bin\System.Web.WebPages.Razor.xml
+E:\web\Fast_food1\Fast_food1\bin\Newtonsoft.Json.xml
+E:\web\Fast_food1\Fast_food1\bin\Antlr3.Runtime.pdb
+E:\web\Fast_food1\Fast_food1\bin\System.Diagnostics.DiagnosticSource.xml
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AI.DependencyCollector.xml
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AI.WindowsServer.xml
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.AI.Web.xml
+E:\web\Fast_food1\Fast_food1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\web\Fast_food1\Fast_food1\obj\Debug\Fast_food1.csprojAssemblyReference.cache
+E:\web\Fast_food1\Fast_food1\obj\Debug\Fast_food1.csproj.CoreCompileInputs.cache
+E:\web\Fast_food1\Fast_food1\obj\Debug\Fast_food1.csproj.CopyComplete
+E:\web\Fast_food1\Fast_food1\obj\Debug\Fast_food1.dll
+E:\web\Fast_food1\Fast_food1\obj\Debug\Fast_food1.pdb
+E:\web\Fast_food1 - Copy\Fast_food1\bin\ApplicationInsights.config
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Fast_food1.dll.config
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Fast_food1.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Fast_food1.pdb
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\csc.exe
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\csc.exe.config
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\csc.rsp
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\csi.exe
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\csi.exe.config
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\csi.rsp
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.Managed.Core.targets
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.AppContext.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Collections.Immutable.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Console.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.IO.Compression.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.IO.FileSystem.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.IO.Pipes.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Reflection.Metadata.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Security.AccessControl.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Security.Claims.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Security.Principal.Windows.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.ValueTuple.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Xml.XmlDocument.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Xml.XPath.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\vbc.exe
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\vbc.exe.config
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\vbc.rsp
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\VBCSCompiler.exe
+E:\web\Fast_food1 - Copy\Fast_food1\bin\roslyn\VBCSCompiler.exe.config
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Antlr3.Runtime.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\EntityFramework.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\EntityFramework.SqlServer.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AI.Agent.Intercept.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AI.DependencyCollector.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AI.Web.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AI.WindowsServer.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.ApplicationInsights.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.Web.Infrastructure.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Newtonsoft.Json.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Diagnostics.DiagnosticSource.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.Helpers.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.Mvc.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.Optimization.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.Razor.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.WebPages.Deployment.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.WebPages.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.WebPages.Razor.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\WebGrease.dll
+E:\web\Fast_food1 - Copy\Fast_food1\bin\EntityFramework.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\EntityFramework.SqlServer.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.Helpers.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.Mvc.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.Optimization.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.Razor.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.WebPages.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.WebPages.Deployment.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Web.WebPages.Razor.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Newtonsoft.Json.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Antlr3.Runtime.pdb
+E:\web\Fast_food1 - Copy\Fast_food1\bin\System.Diagnostics.DiagnosticSource.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AI.DependencyCollector.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AI.WindowsServer.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.AI.Web.xml
+E:\web\Fast_food1 - Copy\Fast_food1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\web\Fast_food1 - Copy\Fast_food1\obj\Debug\Fast_food1.csproj.CoreCompileInputs.cache
+E:\web\Fast_food1 - Copy\Fast_food1\obj\Debug\Fast_food1.csproj.CopyComplete
+E:\web\Fast_food1 - Copy\Fast_food1\obj\Debug\Fast_food1.dll
+E:\web\Fast_food1 - Copy\Fast_food1\obj\Debug\Fast_food1.pdb
+E:\web\Fast_food1 - Copy\Fast_food1\obj\Debug\Fast_food1.csprojAssemblyReference.cache

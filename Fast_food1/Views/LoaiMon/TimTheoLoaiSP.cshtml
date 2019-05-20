@@ -1,0 +1,49 @@
+﻿@using Fast_food1.Models
+@model List<Mon>
+@{
+    ViewBag.Title = "TimTheoLoaiSP";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/css/style.css" rel="stylesheet" />
+
+<div id="wp-content" class="wp-inner clearfix">
+    <img src="~/Content/img/banner-01.jpg">
+    <div id="food-menu">
+        <div class="title-menu clearfix" style="margin-top: 10px;">
+            @*<img src="~/Content/img/icon/line.png" class="fl-left" style="margin-left: 410px; " />*@
+            <form method="post"><input type="number" name="Min" /> <input type="number" name="Max" /> <input type="text" name="TKTen" /> <input type="submit" /></form>
+            @*<p class="title-menu fl-left"> Thực đơn</p>*@
+            @*<img src="~/Content/img/icon/line.png" class="fl-left" />*@
+        </div>
+        <div id="list-menu">
+            <ul>
+                @Html.Action("LoaiMonPartial", "LoaiMon")
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="list-food">
+    <ul>
+        @{
+            foreach (var item in Model)
+            {
+
+                <li>
+                    <div class="bo-img">
+                        <a href="">
+                            <img src="@Url.Content("~/Content/img/"+ item.UrlImg)">
+                            <h4>@item.TenMon</h4>
+                            <span class="price"> @item.Gia VND</span>
+                        </a>
+                        <button type="button" class="btn btn-info"> <a href="@Url.Action("CTMon","ChiTietSP", new { @Mamon = item.MaMon })">Chi Tiết</a> </button>
+                        <button type="button" class="btn btn-danger">
+                            Mua
+                            <span class="fa fa-cart-plus"></span>
+                        </button>
+                    </div>
+                </li>
+            }
+        }
+    </ul>
+</div>
+

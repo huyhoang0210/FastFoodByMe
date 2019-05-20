@@ -1,0 +1,16 @@
+﻿@using Fast_food1.Models 
+@model List<LoaiMon>
+   @{ 
+       Layout = null;
+    }
+
+@foreach (var item in Model)
+
+{
+    <li>
+        <a href="@Url.Action("TimTheoLoaiSP","LoaiMon", new { @ma = item.MaLM})">
+            <img src="@Url.Content("~/Content/img/"+ item.urlIcon)" />
+            <p>@item.TenLM</p>
+        </a>
+    </li>
+}

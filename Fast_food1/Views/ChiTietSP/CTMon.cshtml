@@ -1,0 +1,68 @@
+﻿@using Fast_food1.Models
+@model Mon
+
+
+@{
+    ViewBag.Title = "CTMon";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-sm-8">
+    <div id=" css">
+        <div id="anal-prod" class="fl-left">
+            <div class="fl-left img-product">
+                <img src="@Url.Content("~/Content/img/" + Model.UrlImg)">
+            </div>
+            <div id="infor" class="fl-left">
+                <div class="icoin-star">
+                </div>
+                <p id="name-product"><h3>@Model.TenMon</h3></p>
+                <p id="id-product">Mã sp : @Model.MaMon</p>
+                <p id="price"><h3>@Model.Gia VNĐ</h3></p>
+                <div id="detail">
+                    @Model.MoTaNgan
+                </div>
+                <br>
+                @using (Html.BeginForm("ThemGioHang", "GioHang", new { @ma = Model.MaMon, @Url = Request.Url.ToString() })) 
+                {
+                    <button type="submit" class="btn btn-success">Thêm vào giỏ hàng</button>
+                }
+
+            </div>
+        </div>
+        <div id="information" class="fl-left">
+            <p id="info-pro">Thông tin sản phẩm: </p>
+            <p id="sub-info">
+                @Model.MoTaDai
+                <br>
+                <img id="img_1" src="@Url.Content("~/Content/img/"+ Model.UrlImg)"><br>
+                @Model.MoTaNgan
+            </p>
+        </div>
+    </div>
+        <div id="facebook">
+            <a href="https://facebook.com" class="icon-fb" title="">
+                <span class="fa fa-thumbs-up"> Thích</span>
+            </a>
+            <a class="icon-fb" href="https://facebook.com" title="">Chia sẻ</a>
+        </div>
+    <div class="comment fl-left" style="width: 100%;">
+        <div class="comment comment-count">
+            <div class="fl-left">
+                0 bình luận
+            </div>
+            <div style="float : right;">
+                Sắp xếp theo <select name="sapxep">
+                    <option value="Moi">Mới nhất</option>
+                    <option value="Like">Thích nhiều nhất</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <img src="~/Content/img/comment.jpg" class="fl-left">
+            <textarea rows="4" cols="90" name="comment" placeholder="Thêm bình luận"></textarea>
+
+        </div>
+    </div>
+</div>
+@Html.Partial("partialviewBlog")

@@ -1,0 +1,35 @@
+﻿@using Fast_food1.Models;
+@model List<blog>
+@{
+    ViewBag.Title = "Blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/css/style-blog.css" rel="stylesheet" />
+
+        <div id="content" class="fl-left container" >
+
+            @{
+
+                foreach (var item in Model)
+                {
+
+                    <ul>
+                        <li class="clearfix" style=" margin-left 60px ;">
+                            <a href="@Url.Action("ChiTietBlog","CtBlog", new {@ma = item.MaBlog })"> <img src="@Url.Content("~/Content/img/"+ item.urlImg)" class="fl-left"> </a>
+                            <p class="title-blog fl-left"> <a href="@Url.Action("ChiTietBlog","CtBlog", new {@ma = item.MaBlog })"> @item.TenBlog  </a> </p>
+                            <p class="time-blog fl-left"> @item.ThoiGian </p>
+                            <p class="detail-blog fl-left"> @item.NoiDung </p>
+                        </li>
+                    </ul>
+
+
+                }
+            }
+
+            <p class="button">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+            </p>
+        </div>
+        @Html.Partial("partialviewBlog")

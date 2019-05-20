@@ -1,0 +1,110 @@
+.col-sm-8{
+	padding: 0px;
+	margin:50px 0 0 0;
+
+}
+.img-product{
+	width: 438px;
+	height: 505px;
+	border: 1px solid #cdc2c2;
+}
+.img-product img{
+	width: 436px;
+	padding-top: 60px;
+}
+#infor{
+	width: 322px;
+	padding-left: 35px;
+}
+#id-product{
+	color: gray;
+	font-size: 14px;
+}
+#detail{
+	color: gray;
+	font-size: 12px;
+	border: 1px solid gray;
+	padding: 9px 13px;
+}
+#information{
+	margin-top: 45px;
+}
+#info-pro{
+	font-size: 22px;
+}
+#sub-info{
+	font-size: 14px;
+	color: gray;
+	font-family: roboto;
+
+}
+
+#facebook{
+	margin-top: 65px;
+}
+.col-sm-4{
+	padding: 0px;
+	margin:50px 0 0 0;
+}
+.widget-sidebar{
+	width: 330px;
+	height: 98px;
+	border: 1px solid gray;
+	margin-top: 10px;
+}
+
+p.detail-siderbar{
+	font-size: 13px;
+	margin: 15px 15px 15px 25px;
+}
+
+
+#img-blog{
+    height: auto;
+    width: 330px;
+    margin-top: 50px;
+}
+.icoin-star{
+	background-image: url(../img/icoin.png);
+    background-position: -21px -368px;
+    position: relative;
+    width: 80px;
+    height: 18px;
+}
+
+.comment {
+    border-bottom: 2px solid #fbf8f8;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+    box-shadow: 0px 1px 0 0 #dcd9d9;
+}
+
+.comment-count{
+	height: 30px;
+}
+
+.comment img{
+	width: 28px;
+	margin:2px;
+}
+
+.comment input{
+	padding-left: 2px;
+	height: 30px;
+	width: 94%;
+	float: right;
+	margin-top: 3px;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	padding : 20px;
+}
+
+.img-aside{
+	background-blend-mode: multiply;
+	background-image:  url("../img/bg/bg.jpg"),url("../img/bg/bg7.jpg");
+	width: 350px;
+	height: 550px;
+}

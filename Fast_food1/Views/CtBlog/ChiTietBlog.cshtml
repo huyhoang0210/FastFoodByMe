@@ -1,0 +1,26 @@
+﻿@using Fast_food1.Models ;
+@model  blog
+
+@{
+    ViewBag.Title = "ChiTietBlog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/css/style-blog1.css" rel="stylesheet" />
+
+    <div id="wp-content" class="wp-inner clearfix">
+        <img src="~/Content/img/banner-01.jpg">
+        <div id="content" class="fl-left">
+            <a href="">  <p class="title-blog fl-left">@Model.TenBlog</p> </a>
+            <p class="time-blog fl-left"> <i class="far fa-clock"> </i>@Model.ThoiGian</p>
+            <p id="content_top">
+               @Model.NoiDung
+            </p>
+        <img id="img_blog1" src="@Url.Content("~/Content/img/"+ Model.urlImg)" class="fl-left">
+        <p id="content_botom">
+            @Model.NoiDung
+        </p>
+    </div>
+
+    @Html.Partial("partialviewBlog")
+</div>
+
